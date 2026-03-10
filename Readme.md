@@ -1,23 +1,19 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/pj8M188g)
-# Classification Task
+# 🧬 Breast Cancer Detection System (Deep Learning)
 
-## Task
+![Python](https://img.shields.io/badge/Python-3.13-blue?style=for-the-badge&logo=python)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?style=for-the-badge&logo=tensorflow)
+![FastAPI](https://img.shields.io/badge/FastAPI-v0.100-green?style=for-the-badge&logo=fastapi)
+![Accuracy](https://img.shields.io/badge/Accuracy-98%25-brightgreen?style=for-the-badge)
 
-Solve the classification task using the provided notebook:
+A high-performance medical diagnostic system powered by Deep Learning (ANN) to classify breast tumors with an API for real-time predictions.
 
-```
-keras-classification-task.ipynb
-```
+---
 
-After completing the task, deploy your trained model using FastAPI.
+## 🚀 Project Overview
+This project focuses on classifying tumors as **Benign** or **Malignant** based on 30 clinical features. By utilizing a Sequential Neural Network and rigorous data preprocessing, the model achieves a state-of-the-art accuracy of **98%**.
 
-## Project Structure
-
-Your project should follow this structure:
-
-```
-keras-classification-task.ipynb
-deploy.py
-model_weights.pkl
-scaler_weights.pkl
-```
+### 🛠️ Tech Stack
+* **Backend:** FastAPI (Python)
+* **AI Model:** Keras / TensorFlow (Neural Networks)
+* **Data Processing:** Scikit-learn (MinMaxScaler)
+* **Analysis:** Pandas, Matplotlib, Seaborn
